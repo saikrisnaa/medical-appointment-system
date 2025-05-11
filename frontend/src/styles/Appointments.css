@@ -1,0 +1,21 @@
+/* Appointments page styles will be moved here from Appointments.js */ 
+.appointments-container {
+  margin-top: 96px;
+}
+
+.appointments-box {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.appointments-title {
+  margin-bottom: 32px;
+}
+
+.appointments-alert {
+  margin-bottom: 16px;
+}
+
+.appointments-new-button {
+  margin-bottom: 24px;
+}

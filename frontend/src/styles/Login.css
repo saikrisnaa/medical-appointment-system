@@ -1,0 +1,44 @@
+/* Login page styles will be moved here from Login.js */ 
+.login-topbar {
+  height: 8px;
+  background: linear-gradient(90deg, #e0eafc, #cfdef3, #e0eafc);
+  border-radius: 3px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 16px;
+}
+
+.login-container {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-alert {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.login-form {
+  margin-top: 8px;
+}
+
+.login-submit-button {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.login-link-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link-container a {
+  color: #fa0303;
+  text-decoration: underline;
+}
+
+.login-link-container a:hover {
+  color: #000;
+}

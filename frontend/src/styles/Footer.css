@@ -1,0 +1,51 @@
+/* Footer component styles moved from Footer.js */ 
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 0;
+  background: linear-gradient(90deg, #e53935 0%, #1976d2 100%); /* Smooth red-blue gradient */
+  color: #fff;
+  font-size: 14px;
+} 
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links {
+  margin-top: 16px;
+  display: inline-block;
+}
+
+.footer-link {
+  margin: 0 16px;
+  padding: 8px 18px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+  display: inline-block;
+  background: transparent;
+}
+
+
+.footer-link:hover {
+  color: #1976d2;
+  background: #fff;
+  text-decoration: underline;
+  text-decoration: underline;
+}
+
+
+.footer-link:not(:last-child)::after {
+  content: " "; /* Remove the | separator for a cleaner button look */
+  margin-left: 0;
+}

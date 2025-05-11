@@ -1,0 +1,45 @@
+/* Dashboard page styles moved from Dashboard.js */ 
+.dashboard-container {
+  margin-top: 80px;
+}
+@media (min-width: 600px) {
+  .dashboard-container {
+    margin-top: 96px;
+  }
+}
+
+.dashboard-gradient-bar {
+  height: 4px;
+  background: linear-gradient(90deg, #f3f4f6, #e5e7eb, #f3f4f6);
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin-bottom: 16px;
+}
+
+.dashboard-content {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  padding: 16px;
+}
+@media (min-width: 600px) {
+  .dashboard-content {
+    padding: 32px;
+  }
+}
+
+.dashboard-alert {
+  margin-bottom: 16px;
+}
+
+.dashboard-profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.dashboard-profile-icon {
+  margin-right: 8px;
+}
